@@ -1,0 +1,60 @@
+/* * Definition Schriftarten */
+
+@font-face {
+    font-family: 'Scto_Regular';
+    src: url('../fonts/SctoGroteskA-Regular.woff2');
+}
+@font-face {
+    font-family: 'Scto_Medium';
+    src: url('../fonts/SctoGroteskA-Medium.woff2');
+}
+@font-face {
+    font-family: 'Scto_Bold';
+    src: url('../fonts/SctoGroteskA-Bold.woff2');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-black: #252422;
+    --color-rosa: #f9cdcd;
+    --color-white: #f4f4f4;
+    --color-grey: #5e5e5e;
+    --color-background-black: #252422;
+    --color-background-white: #f4f4f4;
+    --color-background-black10: rgba(0, 0, 0, 0.1)
+}
+
+html {
+    font-size: 16px;
+}
+
+/* * Styling der Überschriften, p und a tags */
+h1, h2 {
+    font-family: 'Scto_Bold';
+    font-size: 5rem;
+}
+
+h3 {
+    font-family: 'Scto_Bold';
+    font-size: 2.3rem;
+}
+
+h4 {
+    font-family: 'Scto_bold';
+    font-size: 1rem;
+}
+
+p {
+    font-family: 'Scto_Regular';
+    font-size: 1rem;
+}
+
+.p__bold {
+    font-family: 'Scto_Bold';
+    font-size: 2rem;
+}
