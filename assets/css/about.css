@@ -11,6 +11,23 @@ hr {
     border: 1px solid var(--color-rosa);
 }
 
+/* Font-Styling */
+
+.secHeader {
+    font-size: 2.2rem;
+    font-family: 'Scto_Bold';
+}
+
+.secTitle {
+    font-size: 1.5rem;
+    font-family: 'Scto_Bold';
+}
+
+.secNr {
+    font-size: 3.7rem;
+    font-family: 'Scto_Bold';
+}
+
 /* ! Section 1 */
 
 .sec1 {
@@ -105,4 +122,60 @@ hr {
     display: flex;
     justify-content: space-between;
     margin: 1rem 0;
+}
+
+/* ! Section 3 */
+
+.sec3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, max-content);
+    grid-template-areas: 
+    "agency people offices"
+    ". years growth"
+    ". services ranking";
+    gap: 5rem 0;
+    margin: 3rem 0;
+}
+
+.sec3 div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.gridL {
+    grid-area: agency;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.gridM1 {
+    grid-area: people;
+    width: 47%;
+}
+
+.gridR1 {
+    grid-area: offices;
+    width: 47%;
+}
+
+.gridM2 {
+    grid-area: years;
+    width: 47%;
+}
+
+.gridR2 {
+    grid-area: growth;
+    width: 47%;
+}
+
+.gridM3 {
+    grid-area: services;
+    width: 47%;
+}
+
+.gridR3 {
+    grid-area: ranking;
+    width: 47%;
 }
