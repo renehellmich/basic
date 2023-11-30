@@ -179,3 +179,54 @@ hr {
     grid-area: ranking;
     width: 47%;
 }
+
+/* ! Section 4 */
+
+.sec4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, max-content);
+    grid-template-areas: 
+    "capab planning ux"
+    ". bx technology"
+    ". cc .";
+    gap: 5rem 0;
+    margin: 3rem 0;
+}
+
+.sec4 div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sec4GridL {
+    grid-area: capab;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.sec4GridM1 {
+    grid-area: planning;
+    width: 47%;
+}
+
+.sec4GridR1 {
+    grid-area: ux;
+    width: 47%;
+}
+
+.sec4GridM2 {
+    grid-area: bx;
+    width: 47%;
+}
+
+.sec4GridR2 {
+    grid-area: technology;
+    width: 47%;
+}
+
+.sec4GridM3 {
+    grid-area: cc;
+    width: 47%;
+}
