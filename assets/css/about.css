@@ -1,3 +1,7 @@
+* {
+    text-decoration: none;
+}
+
 body {
     background-color: var(--color-background-black);
 }
@@ -229,4 +233,48 @@ hr {
 .sec4GridM3 {
     grid-area: cc;
     width: 47%;
+}
+
+/* ! Section 5  */
+
+.sec5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1, max-content;
+    grid-template-areas: 
+    "awards text";
+    margin: 3rem 0;
+}
+
+.sec5GridL {
+    grid-area: awards;
+    margin-top: 2rem;
+}
+
+.sec5GridM {
+    grid-area: text;
+    width: 80%;
+}
+
+.sec5GridM p {
+    font-size: 1.9rem;
+    font-family: 'Scto_Bold';
+    line-height: 1.5;
+}
+
+.button {
+    margin-top: 4rem;
+    background-color: transparent;
+    color: var(--color-rosa);
+    font-family: 'Scto_Regular';
+    font-size: 1rem;
+    border-radius: 25px;
+    border: 1px solid var(--color-rosa);
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--color-rosa);
+    color: var(--color-background-black);
 }
