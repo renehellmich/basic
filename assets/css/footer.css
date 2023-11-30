@@ -1,0 +1,80 @@
+/* ! Section News Version 1 completed */
+/* * Start Footer */
+
+:root {
+    --padding-global: 2rem;
+}
+.footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 0 var(--padding-global);
+}
+
+.sc__footer {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 6.5rem;
+}
+
+.article__footer-subscribe, .article__footer-rechts {
+    width: calc(100vw/2);
+}
+.article__footer-subscribe label {
+    margin-bottom: 1rem;
+}
+.article__footer-subscribe input{
+    height: 2rem;
+    width: 100%;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: .5rem .5rem;
+    border: none;
+}
+.img__footer-logo {
+    width: 40px;
+    height: 22px;
+    margin-bottom: 3rem;
+}
+.p__footer-headline {
+    margin-bottom: 2rem;
+}
+.div__footer-outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div__footer-inner {
+    display: flex;
+    flex-direction: column;
+}
+.div__footer-inner h4 {
+    margin-bottom: 1rem;
+}
+.div__footer-inner a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.875rem;
+}
+
+.sc__conclusion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.sc__conclusion p {
+    font-family: 'Scto_Regular';
+    font-size: .625rem;
+    color: var(--color-grey);
+}
+
+.sc__conclusion a {
+    font-family: 'Scto_Regular';
+    font-size: .625rem;
+    color: var(--color-grey);
+    text-decoration: none;
+}

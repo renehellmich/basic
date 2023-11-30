@@ -26,7 +26,7 @@
     --color-grey: #5e5e5e;
     --color-background-black: #252422;
     --color-background-white: #f4f4f4;
-    --color-background-black10: rgba(0, 0, 0, 0.1)
+    --color-background-black10: rgba(0, 0, 0, 0.1);
 }
 
 html {
