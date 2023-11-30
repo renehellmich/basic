@@ -15,7 +15,7 @@ hr {
     border: 1px solid var(--color-rosa);
 }
 
-/* Font-Styling */
+/* General Font-Stylings */
 
 .secHeader {
     font-size: 2.2rem;
@@ -33,6 +33,8 @@ hr {
 }
 
 /* ! Section 1 */
+
+/* sec1 is positioned with display flex */
 
 .sec1 {
     display: flex;
@@ -56,6 +58,8 @@ hr {
 }
 
 /*  ! Section 2 */
+
+/* sec2 hast 4 images that have an absolute position that is relative to its parent section container. */
 
 .sec2 {
     position: relative;
@@ -130,6 +134,8 @@ hr {
 
 /* ! Section 3 */
 
+/* sec3 is styled with a display grid. Each grid has an own styling with display flex. */
+
 .sec3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -186,6 +192,8 @@ hr {
 
 /* ! Section 4 */
 
+/* sec4 is styled with a display grid. Each grid has an own styling with display flex. */
+
 .sec4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -237,7 +245,16 @@ hr {
 
 /* ! Section 5  */
 
+/* Sec5 first with flex and then with desiplay grid */
+
 .sec5 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30rem;
+    position: relative;
+}
+
+.grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1, max-content;
@@ -262,6 +279,8 @@ hr {
     line-height: 1.5;
 }
 
+/* Design of button with hover effect */
+
 .button {
     margin-top: 4rem;
     background-color: transparent;
@@ -277,4 +296,94 @@ hr {
 .button:hover {
     background-color: var(--color-rosa);
     color: var(--color-background-black);
+    transition-delay: 0.1s;
+}
+
+/* Awards listed on left side */
+
+.awards {
+    margin-top: 5rem;
+}
+
+.awards p {
+    font-size: 4rem;
+    color: var(--color-rosa);
+    font-family: 'Scto_Bold';
+    opacity: 0.5;
+    position: relative;
+    width: 40rem;
+}
+
+.awards span {
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+}
+
+/* images will be shown on hover. First they have an opacity of 0. Every image has an own position relative to the parent div container */
+
+.sec5 img {
+    width: 30rem;
+    position: absolute;
+    right: 10rem;
+}
+
+.sec5 img:nth-of-type(1) {
+    top: 20rem;
+    opacity: 0;
+}
+
+.sec5 img:nth-of-type(2) {
+    top: 25rem;
+    opacity: 0;
+}
+
+.sec5 img:nth-of-type(3) {
+    top: 30rem;
+    opacity: 0;
+}
+
+.sec5 img:nth-of-type(4) {
+    top: 35rem;
+    opacity: 0;
+}
+
+.sec5 img:nth-of-type(5) {
+    top: 40rem;
+    opacity: 0;
+}
+
+.sec5 img:nth-of-type(6) {
+    top: 45rem;
+    opacity: 0;
+}
+
+/* Hover Effect on awards showing images */
+
+.awards p:hover {
+    opacity: 1;
+}
+
+.awards p:nth-of-type(1):hover~.img1 {
+    opacity: 1;
+}
+
+.awards p:nth-of-type(2):hover~.img2 {
+    opacity: 1;
+}
+
+.awards p:nth-of-type(3):hover~.img3 {
+    opacity: 1;
+}
+
+.awards p:nth-of-type(4):hover~.img4 {
+    opacity: 1;
+}
+
+.awards p:nth-of-type(5):hover~.img5 {
+    opacity: 1;
+}
+
+.awards p:nth-of-type(6):hover~.img6 {
+    opacity: 1;
 }
