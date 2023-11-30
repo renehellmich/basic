@@ -93,3 +93,16 @@ hr {
 .sec2 div:nth-of-type(2):hover {
     z-index: 3;
 }
+
+/* ! Basic Logo */
+
+.logoBasic {
+    width: 33%;
+    margin: 2rem 0;
+}
+
+.devider {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
