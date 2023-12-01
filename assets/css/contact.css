@@ -71,6 +71,38 @@ main {
 }
 
 /* !section 2 */
+
+.office-div-flex {
+    display: flex;
+    margin-top: 1rem;
+}
+.ofi-div {
+
+    width: 33.3%;
+}
+.office-sec-div {
+    display: flex;
+    gap: 2rem;
+}
+.divdiv {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.p-div {
+    display: flex;
+    justify-content: space-between;
+}
+.line {
+    margin-right: 1rem;
+}
+.line2 {
+    margin-bottom: 1rem;
+}
+
+/* !section 3 */
+
 /* 
 
 
