@@ -1,10 +1,13 @@
 html {
     background-color: var(--color-background-white);
+    color: var(--color-black);
+}
+
+:root {
+    --padding-global:2rem;
 }
 
 .sc__start {
-    background-color: var(--color-white);
-    color: var(--color-black);
     max-width: 1680px;
     margin: 0 auto;
     padding: 0 var(--padding-global) 4rem var(--padding-global);
@@ -13,8 +16,6 @@ html {
     justify-content: space-between;
 }
 .sc__news {
-    background-color: var(--color-white);
-    color: var(--color-black);
     max-width: 1680px;
     margin: 0 auto;
     padding: 0 var(--padding-global) 4rem var(--padding-global);
