@@ -9,7 +9,7 @@ html {
     margin: 0 auto;
     padding: 0 var(--padding-global) 4rem var(--padding-global);
     display: flex;
-    
+
     justify-content: space-between;
 }
 .sc__news {
