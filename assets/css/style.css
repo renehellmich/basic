@@ -17,6 +17,8 @@ body {
 /* * Start Section Starts */
 
 .sc__starts {
+    max-width: 1680px;
+    margin: 0 auto;
     padding: 0 var(--padding-global) 1rem var(--padding-global);
 }
 .sc__starts h2 {
@@ -36,7 +38,9 @@ body {
 /* * Section Brand Def start */
 
 .sc__brand-def {
-    margin: 0 var(--padding-global) 4rem var(--padding-global)
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 var(--padding-global) 4rem var(--padding-global)
 }
 .sc__brand-def p:nth-of-type(1) {
     font-family: 'Scto_Regular';
@@ -84,7 +88,8 @@ body {
 /* * Section Engagements start */
 
 .sc__engagements {
-
+    max-width: 1680px;
+    margin: 0 auto;
     padding: 0 var(--padding-global) 4rem var(--padding-global);
 }
 .sc__engagements h3 {
@@ -133,6 +138,8 @@ body {
     background-color: var(--color-black);
     display: flex;
     justify-content: space-between;
+    max-width: 1680px;
+    margin: 0 auto;
     padding: 0 var(--padding-global) 4rem var(--padding-global);
 }
 
@@ -164,6 +171,8 @@ body {
 .sc__news {
     background-color: var(--color-black);
     color: var(--color-rosa);
+    max-width: 1680px;
+    margin: 0 auto;
     padding: 0 var(--padding-global) 4rem var(--padding-global);
 }
 .article__news {

@@ -5,6 +5,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    max-width: 1680px;
+    margin: 0 auto;
     padding: 1rem 2rem 2rem 2rem;
 }
 .header img {

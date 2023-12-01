@@ -8,6 +8,8 @@
     background-color: var(--color-black);
     color: var(--color-white);
     padding: 0 var(--padding-global);
+    max-width: 1680px;
+    margin: 0 auto;
 }
 
 .sc__footer {
