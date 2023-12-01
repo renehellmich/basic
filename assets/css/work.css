@@ -1,9 +1,19 @@
-main {
+/* main {
     padding: 0 2rem;
-}
+} */
 
 :root {
     --padding-global: 2rem;
+}
+
+a {
+    font-family: 'Scto_Regular';
+    font-size: 0.875rem;
+    padding: .5rem 1rem;
+    border: 1px solid var(--color-black);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--color-black)
 }
 
 .sc__work {
@@ -26,4 +36,53 @@ main {
     max-width: 330px;
     width: 20vw;
     align-self: flex-end;
+}
+
+.sc__over {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 var(--padding-global) 4rem var(--padding-global);
+    display: flex;
+}
+
+.article__settings {
+    /* height: 100%; */
+    /* height: 568px; */
+    width: calc((100vw - var(--padding-global)) / 3 );
+}
+.article__left {
+    position: relative;
+    margin: 0 1rem 0 0;
+}
+.p__date {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.div__left {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.article__right {
+    padding: 0 .5rem
+}
+.article__right video, .article__right img {
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.h4__article-description {
+    margin: 2rem 0;
+}
+.p__article-description {
+    width: 50%;
 }
