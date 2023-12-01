@@ -27,8 +27,9 @@ hr {
     margin-bottom: 1rem;
 }
 .article__news {
-    display: grid;
-    grid-template-columns: 2fr 5fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     gap: 1rem;
     margin-bottom: 2rem;
     height: 326px;
