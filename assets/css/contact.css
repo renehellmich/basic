@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 3rem;
+}
+.header-sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.null-img {
+    width: calc(100vw/2 - 2 * 30px);
+    height: 100%;
+    
+}
+.head-text-h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 12rem;    
+}
+.ima-div {
+    width: calc(100vw/2 - 2 * 30px);
+    height: 100%;
+}
+.text-div-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: calc(100vw/2 - 2 * 30px);
+    margin-top: -20%;
+
+}
+
+.head-text-div-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 35%;
+}
+.head-4-div-text {
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+}
+
+.head-text-2-div {
+    display: flex;
+    flex-direction: column;
+    gap: 50%;
+}
+.punkt {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+.sec2-div-row-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 90%;
+}
+.sec2-2-div-row-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1000%;
+}
+.punkt-klein {
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.office-div-flex {
+    display: flex;
+    flex-direction: row;
+    width: calc(100vw/2 - 2 * 30px);
+    height: 100%;
+    gap: 33%;
+    margin: 3rem;
+}
+.office-sec-div {
+    display: flex;
+    flex-direction: row;
+}
+.san {
+    width: 34em;
+    margin-left: 3%;
+}
+.p-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90%;
+    margin-top: 9%;
+    margin-bottom: 4%;
+}
+
+.border-left {
+
+}
+
+.line {
+    height: 1%;
+}
+.sec3-div-row-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+
+}
+
+.a-list  a li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.h3-small {
+    text-decoration: none;
+    width: 50rem;
+}
+.borderless {
+    border: 0;
+}
+
+
+
