@@ -7,59 +7,73 @@
 main {
     margin: 3rem;
 }
+
+/* !section 1 */
 .header-sec {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     gap: 2rem;
+    margin-bottom: 3rem;
 }
 .null-img {
-    width: calc(100vw/2 - 2 * 30px);
-    height: 100%;
-    
+    width: 50rem;
+   
+}
+
+.text-div-flex {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
 }
 .head-text-h1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 12rem;    
+    width: 15rem;
 }
-.ima-div {
-    width: calc(100vw/2 - 2 * 30px);
-    height: 100%;
-}
-.text-div-flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: calc(100vw/2 - 2 * 30px);
-    margin-top: -20%;
-
-}
-
 .head-text-div-flex {
     display: flex;
-    flex-direction: row;
-    gap: 35%;
-}
-.head-4-div-text {
-    display: flex;
-    flex-direction: row;
-    gap: 40%;
-}
-
-.head-text-2-div {
-    display: flex;
-    flex-direction: column;
-    gap: 50%;
+    gap: 10rem;
 }
 .punkt {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background-color: black;
     border-radius: 50%;
 }
+
+.head-4-div-text {
+    display: flex;
+    gap: 5rem;
+}
+.head-text-2-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.head-text-2-div div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* !trennlinie */
+
+.sec2-2-div-row-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.punkt-klein {
+    width: 0.75rem; 
+    height: 0.75rem;
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+/* 
+
+
 .sec2-div-row-flex {
     display: flex;
     flex-direction: row;
@@ -70,12 +84,7 @@ main {
     flex-direction: row;
     gap: 1000%;
 }
-.punkt-klein {
-    width: 0.75rem;
-    height: 0.75rem;
-    background-color: black;
-    border-radius: 50%;
-}
+
 
 .office-div-flex {
     display: flex;
@@ -131,4 +140,4 @@ main {
 }
 
 
-
+ */
