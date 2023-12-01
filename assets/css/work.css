@@ -1,3 +1,29 @@
 main {
-    margin: 0 3rem;
+    padding: 0 2rem;
+}
+
+:root {
+    --padding-global: 2rem;
+}
+
+.sc__work {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 var(--padding-global) 4rem var(--padding-global);
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap:2rem;   
+}
+.sc__work h1 {
+    max-width: 580px;
+    min-width: 480px;
+    width: 50vw;
+}
+.p__top {
+    font-family: 'Scto_Regular';
+    font-size: 1rem;
+    max-width: 330px;
+    width: 20vw;
+    align-self: flex-end;
 }
